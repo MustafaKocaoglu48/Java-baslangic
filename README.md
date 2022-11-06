@@ -158,22 +158,3 @@ public class kdv_hesabi {
 }
 
 ````
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
