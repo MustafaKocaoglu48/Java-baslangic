@@ -1,6 +1,6 @@
 # Java-baslangic
 ---
-###Ekrana yazdırma
+### Ekrana yazdırma
 ````
 package A;
 public class B{
