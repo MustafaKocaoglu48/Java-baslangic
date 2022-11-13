@@ -158,3 +158,32 @@ public class kdv_hesabi {
 }
 
 ````
+### Hesap makinesi uygulaması
+````java
+public class hesap_makinesi{
+    public static void main(String[] args) {
+        Scanner m=new Scanner(System.in);
+        System.out.println("Lütfen 2 sayı giriniz:");
+        int sayi_1=m.nextInt();
+        int sayi_2=m.nextInt();
+        System.out.println("Lütfen bir işlem seçiniz:"
+        +"1-TOPLAMA"
+        +"2-ÇIKARMA"
+        +"3-ÇARPMA"
+        +"4-BÖLME");
+        int islem=m.nextInt();
+        if(islem==1){
+            System.out.println("İşlem sonucu:"+(sayi_1+sayi_2));
+        }else if(islem==2){
+            System.out.println("İşlem sonucu:"+(sayi_1-sayi_2));
+        }else if(islem==3){
+            System.out.println("İşlem sonucu:"+(sayi_1*sayi_2));
+        }else if(islem==4){
+            System.out.println("İşlem sonucu:"+(sayi_1/sayi_2));
+        }
+        
+    }
+    
+}
+
+````
