@@ -25,7 +25,7 @@ public class veri_tipleri {
 }
 ````
 ### Konsoldan veri alma
-`````java
+````java
 import java.util.Scanner;
 public class Konsoldan_veri_alma {
     public static void main(String[] args) {
@@ -53,7 +53,7 @@ public class Konsoldan_veri_alma {
 
 ````
 ### Konsoldan alinan sayilari toplama
-`````java
+````java
 import java.util.Scanner;
 public class Konsoldan_veri_alma {
     public static void main(String[] args) {
