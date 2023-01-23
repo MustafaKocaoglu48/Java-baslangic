@@ -189,10 +189,30 @@ public class hesap_makinesi{
 ````
 ### While döngüsü ile adımı 10 kere ekrana yazdıran program
 ````
-
-  int i=1;
+public class donguler {
+public static void main(String[] args) {
+    //Adımı 5 kere ekrana yazan program
+    
    while(i<=5){
        System.out.println("Mustafa");
        i++;
+              }
+     }
    }
+````
+### do-while döngüsü ile adımızı 5 kere yazan program.
+````
+public class donguler {
+public static void main(String[] args) {
+    //Adımı 5 kere ekrana yazan program.
+ int i=1;
+    do{
+     System.out.println("Mustafa");
+     i++;
+ }while(i<=5);
+
+}
+    
+}
+
 ````
