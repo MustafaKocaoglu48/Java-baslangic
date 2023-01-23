@@ -187,3 +187,12 @@ public class hesap_makinesi{
 }
 
 ````
+### While döngüsü ile adımı 10 kere ekrana yazdıran program
+````
+
+  int i=1;
+   while(i<=5){
+       System.out.println("Mustafa");
+       i++;
+   }
+````
