@@ -216,3 +216,122 @@ public static void main(String[] args) {
 }
 
 ````
+### for döngüsü ile adımızı 5 kere ekrana yazan program
+````
+public class donguler {
+public static void main(String[] args) {
+    //Adımı 5 kere ekrana yazan program.
+ 
+    for(int i=0;i<5;i++){
+        System.out.println("Mustafa");
+    }
+   
+   
+}
+    
+}
+````
+### break ve continue ifadeleri
+````
+public class donguler {
+public static void main(String[] args) {
+  //break =>Döngüyü durdurur 
+  //continue =>Bir sonraki adıma geçer.
+   
+   for(int i=0;i<5;i++){
+       System.out.println("Mustafa");
+          break;
+   }
+  for(int i=0;i<5;i++){
+       System.out.println("Mustafa");
+         continue;
+   }
+
+}
+    
+}
+````
+### 1-100 arasında 7 ile bölünebilen sayıları ekrana yazan program
+````
+public class donguler {
+public static void main(String[] args) {
+      //1-100 arasındaki sayıların 7 ile bölünebilen sayıları ekran ayazan programı yazınız.
+      for (int i = 1; i < 100; i++){
+        if(i%7==0){
+            System.out.println(i);
+        }
+    }
+}
+    
+}
+````
+### 1-20 arasındaki sayıların toplamını bulan program
+````
+public class donguler {
+public static void main(String[] args) {
+     //1-20 arasındaki sayıların toplamını bulan programı yazınız.
+     int toplam=0;
+     for(int i=0;i<21;i++){
+         toplam+=i;
+     }System.out.println("1-20 arasındaki sayıların toplamı:"+toplam);
+}
+    
+}
+````
+### Klavyeden girilen 20 adet sayının toplamını veren program
+````
+import java.util.Scanner;
+public class donguler {
+public static void main(String[] args) {
+    //Klavyeden girilen 20 adet sayının toplamını veren program
+   Scanner m=new Scanner(System.in);
+   int toplam=0;
+   for(int i=0;i<=20;i++){
+       int a=m.nextInt();
+       toplam+=a;
+   }System.out.println("Girilen 20 sayının toplamı:"+toplam);
+
+}
+    
+}
+````
+### Klavyeden girilen 10 adet sayının  çift olanları yazan ve kaç adet olduğunu bulan program
+````import java.util.Scanner;
+public class donguler {
+public static void main(String[] args) {
+    
+   Scanner m=new Scanner(System.in);
+   int sayac=0;
+      for(int i=0;i<10;i++){
+          int a=m.nextInt();
+          if(a%2==0){
+              System.out.println(a);
+              sayac++;
+          }
+      }System.out.println("Girilen sayılar içinde toplam "+sayac+" tane çift sayı vardır");
+}
+    
+}
+````
+### Klavyeden girilen 10 adet sayıdan en büyüğünü bulan programı yazınız.
+````
+import java.util.Scanner;
+public class donguler {
+public static void main(String[] args) {
+   Scanner m=new Scanner(System.in);
+      int enb=0;
+      for(int i=0;i<10;i++){
+          int a=m.nextInt();
+          if(enb<=a){
+              enb=a;
+          }
+      }System.out.println("En büyük sayı:"+enb);
+   
+}
+    
+}
+````
+
+
+
+
