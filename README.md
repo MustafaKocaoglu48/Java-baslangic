@@ -331,6 +331,28 @@ public static void main(String[] args) {
     
 }
 ````
+### Klavyeden girilen 10 adet sayıdan en küçüğünü bulan ve ortalamasını yazdıran programı yazınız.
+````
+import java.util.Scanner;
+public class donguler {
+public static void main(String[] args) {
+    
+   Scanner m=new Scanner(System.in);
+      int enk=Integer.MAX_VALUE;
+      int toplam=0;
+      for(int i=0;i<10;i++){
+          int a=m.nextInt(); 
+         toplam+=a;
+          if(enk>=a){
+              enk=a;
+          }
+      }double ortalama=(toplam/10.0);
+      System.out.println("En küçük sayı:"+enk+" ve ortalama:"+ortalama);
+   
+}
+    
+}
+````
 
 
 
