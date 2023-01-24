@@ -353,7 +353,105 @@ public static void main(String[] args) {
     
 }
 ````
+### Klavyeden girilen stringi ters çeviren programı yazınız.
+````
+import java.util.Scanner;
+public class donguler {
+public static void main(String[] args) {
+    
+   Scanner m=new Scanner(System.in);
+    System.out.println("Lütfen ters yazılmasını istediğiniz bir string giriniz.");
+    String a=m.nextLine();
+    for(int i=a.length()-1;i>=0;i--){
+        System.out.print(a.charAt(i));
+    }
+}
+    
+}
 
+````
+### Klavyeden girilen sayıları toplayan ve 90 girildiğinde sistemden çıkıp toplamı ekrana yazdıran programı yazınız.
+````
+import java.util.Scanner;
+public class donguler {
+public static void main(String[] args) {
+    //Klavyeden girilen stringi ters ceviren programı yazınız.
+   Scanner m=new Scanner(System.in);
+   int toplam=0;
+   while(true)
+    {
+   int a=m.nextInt();
+   if(a==90){
+       System.out.println("Girilen sayıların toplamı:"+toplam);
+       System.exit(1);
+   }else{
+       toplam+=a;
+       
+        }
+    }  
+      }
+}
+
+````
+### Klavyeden girirlen string içinde yanyana 2 tane aa karakteri olan varsa kaç tane olduğunu yazan pr yazınız.
+````
+import java.util.Scanner;
+public class donguler {
+public static void main(String[] args) {
+    //Klavyeden girilen stringi ters ceviren programı yazınız.
+   Scanner m=new Scanner(System.in);
+    System.out.println("Lütfen bir string giriniz:");
+  String a=m.nextLine();
+  int sayac=0;
+      for(int i=0;i<a.length()-1;i++){
+          if(a.charAt(i)=='a' && a.charAt(i+1)=='a'){
+              sayac++;
+          }
+      }System.out.println("Bu stringte toplam "+ sayac+" tane aa vardır.");
+      }
+    
+      }
+
+````
+### Klavyeden 2 tane string giriliyor bu girilen stringlerin aynı indisindeki değerler aynı olanları yazan programı yazınız.
+````
+import java.util.Scanner;
+public class donguler {
+public static void main(String[] args) {
+    //Klavyeden girilen stringi ters ceviren programı yazınız.
+   Scanner m=new Scanner(System.in);
+    System.out.println("Lütfen 2 adet aynı uzunlukta string giriniz:");
+  String a=m.nextLine();
+  String b=m.nextLine();
+  for(int i=0;i<a.length();i++){
+          if(a.charAt(i)==b.charAt(i)){
+        System.out.println("Girilen indiste "+i+". indis aynı ve karakterde "+a.charAt(i)); 
+          }
+  }
+      }
+    
+      }
+
+````
+### Klavyeden girilen sayının kaç basamklı olduğunu ekrana yazan programı yazınız.
+````
+import java.util.Scanner;
+public class donguler {
+public static void main(String[] args) {
+    //Klavyeden girilen stringi ters ceviren programı yazınız.
+   Scanner m=new Scanner(System.in);
+   int sayac=0;
+    System.out.println("Lütfen bir sayı giriniz:");
+       int a=m.nextInt();
+           while(a > 0) {
+         a/= 10;  
+            sayac++;
+        }
+        System.out.println("Girdiginiz sayinin basamak sayisi = " + sayac);
+    }
+      }
+    
+````
 
 
 
