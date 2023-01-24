@@ -433,7 +433,7 @@ public static void main(String[] args) {
       }
 
 ````
-### Klavyeden girilen sayının kaç basamklı olduğunu ekrana yazan programı yazınız.
+### Klavyeden girilen sayının kaç basamaklı olduğunu ekrana yazan programı yazınız.
 ````
 import java.util.Scanner;
 public class donguler {
