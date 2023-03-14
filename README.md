@@ -453,6 +453,25 @@ public static void main(String[] args) {
       }
     
 ````
+### Virgülden sonra uzun ondalıklı sayıların virgülden sonraki 2 basamağını alan programı yazınız.
+````java
+
+import java.text.DecimalFormat;
+
+public class Asalsayi_bulma {
+    public static void main(String[] args) {
+        
+  double sayi1 = 11.94648466876568768787656;
+  double sayi2 = 575.546846846846846847;
+
+         System.out.println("Sayıların toplamı = "+(sayi1+sayi2));
+
+           System.out.println("Sayıların toplamı = "+ new DecimalFormat("##.##").format(sayi1+sayi2));
+
+            System.out.println(("Sayıların toplamı = "+ new DecimalFormat("##.##").format(sayi1+sayi2)).replace(',', '.'));
+    }
+}
+````
 
 
 
