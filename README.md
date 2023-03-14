@@ -188,7 +188,7 @@ public class hesap_makinesi{
 
 ````
 ### While döngüsü ile adımı 10 kere ekrana yazdıran program
-````
+````java
 public class donguler {
 public static void main(String[] args) {
     //Adımı 5 kere ekrana yazan program
@@ -201,7 +201,7 @@ public static void main(String[] args) {
    }
 ````
 ### do-while döngüsü ile adımızı 5 kere yazan program.
-````
+````java
 public class donguler {
 public static void main(String[] args) {
     //Adımı 5 kere ekrana yazan program.
@@ -217,7 +217,7 @@ public static void main(String[] args) {
 
 ````
 ### for döngüsü ile adımızı 5 kere ekrana yazan program
-````
+````java
 public class donguler {
 public static void main(String[] args) {
     //Adımı 5 kere ekrana yazan program.
@@ -232,7 +232,7 @@ public static void main(String[] args) {
 }
 ````
 ### break ve continue ifadeleri
-````
+````java
 public class donguler {
 public static void main(String[] args) {
   //break =>Döngüyü durdurur 
@@ -252,7 +252,7 @@ public static void main(String[] args) {
 }
 ````
 ### 1-100 arasında 7 ile bölünebilen sayıları ekrana yazan program
-````
+````java
 public class donguler {
 public static void main(String[] args) {
       //1-100 arasındaki sayıların 7 ile bölünebilen sayıları ekran ayazan programı yazınız.
@@ -266,7 +266,7 @@ public static void main(String[] args) {
 }
 ````
 ### 1-20 arasındaki sayıların toplamını bulan program
-````
+````java
 public class donguler {
 public static void main(String[] args) {
      //1-20 arasındaki sayıların toplamını bulan programı yazınız.
@@ -279,7 +279,7 @@ public static void main(String[] args) {
 }
 ````
 ### Klavyeden girilen 20 adet sayının toplamını veren program
-````
+````java
 import java.util.Scanner;
 public class donguler {
 public static void main(String[] args) {
@@ -296,7 +296,8 @@ public static void main(String[] args) {
 }
 ````
 ### Klavyeden girilen 10 adet sayının  çift olanları yazan ve kaç adet olduğunu bulan program
-````import java.util.Scanner;
+````java
+import java.util.Scanner;
 public class donguler {
 public static void main(String[] args) {
     
@@ -314,7 +315,7 @@ public static void main(String[] args) {
 }
 ````
 ### Klavyeden girilen 10 adet sayıdan en büyüğünü bulan programı yazınız.
-````
+````java
 import java.util.Scanner;
 public class donguler {
 public static void main(String[] args) {
@@ -332,7 +333,7 @@ public static void main(String[] args) {
 }
 ````
 ### Klavyeden girilen 10 adet sayıdan en küçüğünü bulan ve ortalamasını yazdıran programı yazınız.
-````
+````java
 import java.util.Scanner;
 public class donguler {
 public static void main(String[] args) {
@@ -354,7 +355,7 @@ public static void main(String[] args) {
 }
 ````
 ### Klavyeden girilen stringi ters çeviren programı yazınız.
-````
+````java
 import java.util.Scanner;
 public class donguler {
 public static void main(String[] args) {
@@ -371,7 +372,7 @@ public static void main(String[] args) {
 
 ````
 ### Klavyeden girilen sayıları toplayan ve 90 girildiğinde sistemden çıkıp toplamı ekrana yazdıran programı yazınız.
-````
+````java
 import java.util.Scanner;
 public class donguler {
 public static void main(String[] args) {
@@ -394,7 +395,7 @@ public static void main(String[] args) {
 
 ````
 ### Klavyeden girirlen string içinde yanyana 2 tane aa karakteri olan varsa kaç tane olduğunu yazan pr yazınız.
-````
+````java
 import java.util.Scanner;
 public class donguler {
 public static void main(String[] args) {
@@ -414,7 +415,7 @@ public static void main(String[] args) {
 
 ````
 ### Klavyeden 2 tane string giriliyor bu girilen stringlerin aynı indisindeki değerler aynı olanları yazan programı yazınız.
-````
+````java
 import java.util.Scanner;
 public class donguler {
 public static void main(String[] args) {
@@ -434,7 +435,7 @@ public static void main(String[] args) {
 
 ````
 ### Klavyeden girilen sayının kaç basamaklı olduğunu ekrana yazan programı yazınız.
-````
+````java
 import java.util.Scanner;
 public class donguler {
 public static void main(String[] args) {
