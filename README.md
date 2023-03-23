@@ -60,22 +60,14 @@ public class Konsoldan_veri_alma {
       
         Scanner m=new Scanner(System.in); //Scanner sınıfını tanımladık
         
-        System.out.println("Lütfen bir sayı giriniz");
-        int sayi=m.nextInt();//sayi değişkeni için konsoldan veri aldık
-        System.out.println("Girilen sayi:"+sayi);
+        System.out.println("Lütfen toplamak istediğiniz iki sayı giriniz");
+        int sayi=m.nextInt();
+        int sayi2=m.nextInt();
         
-        System.out.println("Lütfen bir string giriniz.");
-        String isim=m.next();//String değişkeni için konsoldan veri aldık
-        System.out.println("Girilen string:"+isim);
        
-        System.out.println("Lütfen bir karakter giriniz");
-        char karakter=m.next().charAt(0);
-        System.out.println("Girilen karakter:"+karakter);
-   
+       int toplam=sayi+sayi2;
+        System.out.println("Sayıların toplamı:"+toplam);
         
-        System.out.println("Lütfen bir ondalıklı sayı giriniz.");
-        double ondalikli_sayi=m.nextDouble();
-        System.out.println("Girilen ondalıklı sayi="+ondalikli_sayi);
     }
 }
 
