@@ -431,7 +431,7 @@ public static void main(String[] args) {
 import java.util.Scanner;
 public class donguler {
 public static void main(String[] args) {
-    //Klavyeden girilen stringi ters ceviren programı yazınız.
+
    Scanner m=new Scanner(System.in);
    int sayac=0;
     System.out.println("Lütfen bir sayı giriniz:");
